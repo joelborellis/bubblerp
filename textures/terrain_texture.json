@@ -7,6 +7,33 @@
     "bubblegum_ore": {
       "textures": "textures/blocks/bubblegum_ore"
     },
+    "head_top": {
+      "textures": [
+        "textures/blocks/head_top",
+        "textures/blocks/head_top",
+        "textures/blocks/head_top"
+      ]
+    },
+    "head_side": {
+      "textures": [
+        "textures/blocks/head_side",
+        "textures/blocks/head_side",
+        "textures/blocks/head_side"
+      ]
+    },
+    "head_face": {
+      "textures": [
+        "textures/blocks/head_face_off",
+        "textures/blocks/head_face_on",
+        "textures/blocks/head_side"
+      ]
+    },
+    "head_stem": {
+      "textures": [
+        "textures/blocks/head_stem_disconnected",
+        "textures/blocks/head_stem_connected"
+      ]
+    },
     "bubblegum_side": {
       "textures": [
         {
