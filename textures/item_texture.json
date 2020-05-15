@@ -21,6 +21,10 @@
     "bubbleeffects":
     {
       "textures":"textures/items/bubbleeffects.png"
+    },
+    "bubblegum_piece":
+    {
+      "textures":"textures/items/bubblegum_piece.png"
     }
   }
 }

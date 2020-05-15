@@ -8,7 +8,7 @@
 
     "components": {
       "minecraft:icon": "bubblehammer",
-      "minecraft:render_offsets": "tools"
+      "minecraft:render_offsets": "bubblehammer"
     }
   }
 }

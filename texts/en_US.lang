@@ -1,5 +1,6 @@
 ﻿tile.gtl:bubblegum.name=Bubblegum Block
 tile.gtl:bubblegum_ore.name=Bubblegum Ore
+item.gtl:bubblegum_piece.name=Piece of Bubblegum
 item.gtl:candycane.name=Candy Cane
 item.gtl:bubbleweapon.name=§cBubble Sword §r| §a+3 Attack Damage §f|§r
 item.gtl:bubbletool.name=§eBubble Crook | §a+1 Attack Damage §r| §5Fast at Breaking Leaves§r

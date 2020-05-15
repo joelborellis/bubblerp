@@ -2,14 +2,14 @@
     "format_version": "1.14",
     "minecraft:item": {
       "description": {
-        "identifier": "gtl:candycane",
+        "identifier": "gtl:bubblegum_piece",
         "category": "Nature"
       },
   
       "components": {
-        "minecraft:icon": "candycane",
+        "minecraft:icon": "bubblegum_piece",
         "minecraft:use_animation": "eat",
-        "minecraft:render_offsets": "candycane"
+        "minecraft:render_offsets": "bubblegum_piece"
       }
     }
   }
