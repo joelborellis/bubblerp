@@ -25,6 +25,10 @@
     "bubblegum_piece":
     {
       "textures":"textures/items/bubblegum_piece.png"
+    },
+    "gelatin":
+    {
+      "textures":"textures/items/gelatin.png"
     }
   }
 }
