@@ -1,0 +1,34 @@
+{
+    "biomes": {
+        "default": {
+            "water_surface_color": "#44AFF5",
+            "water_surface_transparency": 0.65,
+            "water_fog_color": "#44AFF5",
+            "water_fog_distance": 15
+        },
+        "forest": {
+            "water_surface_color": "#ff6666",
+            "water_fog_color": "#ff6666"
+        },
+        "flower_forest": {
+            "water_surface_color": "#20A3CC",
+            "water_fog_color": "#20A3CC"
+        },
+        "birch_forest": {
+            "water_surface_color": "#0677ce",
+            "water_fog_color": "#0677ce"
+        },
+        "mesa": {
+            "water_surface_color": "#4E7F81",
+            "water_fog_color": "#4E7F81"
+        },
+        "mesa_plateau": {
+            "water_surface_color": "#55809E",
+            "water_fog_color": "#55809E"
+        },
+        "forest_hills": {
+            "water_surface_color": "#056bd1",
+            "water_fog_color": "#056bd1"
+        }
+    }
+}
