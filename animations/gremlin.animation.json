@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gremlin.baby_transform": {
+			"loop": true
+		},
+		"animation.gremlin.crouch": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [0, -1.8, 0]
+				}
+			}
+		},
+		"animation.gremlin.pounce": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["query.vertical_speed * -7.0", 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.gremlin.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-this", 0, 0]
+				}
+			}
+		},
+		"animation.gremlin.sit": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-60, 0, 0],
+					"position": [0, 1, 0]
+				}
+			}
+		},
+		"animation.gremlin.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -90],
+					"position": [0, -4.8, 0]
+				}
+			}
+		},
+		"animation.gremlin.stuck": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [60, 0, 0],
+					"position": [0, -0.3, 0]
+				}
+			}
+		}
+	}
+}

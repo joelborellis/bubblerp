@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "gtl:gremlin",
+      "materials": { "default": "gremlin" },
+      "textures": {
+        "pink": "textures/entity/gremlin/gremlin"
+      },
+      "geometry": {
+        "default": "geometry.gremlin"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.gremlin.baby_transform",
+        "crouch": "animation.gremlin.crouch",
+        "sleep": "animation.gremlin.sleep",
+        "setup": "animation.gremlin.setup",
+        "sit": "animation.gremlin.sit",
+        "stuck": "animation.gremlin.stuck",
+        "pounce": "animation.gremlin.pounce",
+        "move": "controller.animation.gremlin.move"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          { "baby_transform": "query.is_baby" },
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.gremlin" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 55
+      }
+    }
+  }
+}
