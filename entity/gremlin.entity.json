@@ -5,7 +5,8 @@
       "identifier": "gtl:gremlin",
       "materials": { "default": "gremlin" },
       "textures": {
-        "pink": "textures/entity/gremlin/gremlin"
+        "pink": "textures/entity/gremlin/gremlin",
+        "red": "textures/entity/gremlin/gremlin"
       },
       "geometry": {
         "default": "geometry.gremlin"
@@ -32,7 +33,7 @@
       "render_controllers": [ "controller.render.gremlin" ],
       "spawn_egg": {
         "texture": "spawn_egg",
-        "texture_index": 55
+        "texture_index": 1
       }
     }
   }

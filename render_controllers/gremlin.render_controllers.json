@@ -5,7 +5,8 @@
       "arrays": {
         "textures": {
           "Array.skins": [
-            "Texture.bubble"
+            "Texture.pink",
+            "Texture.red"
           ]
         }
       },
