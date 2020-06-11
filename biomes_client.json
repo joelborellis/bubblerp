@@ -29,6 +29,10 @@
         "forest_hills": {
             "water_surface_color": "#056bd1",
             "water_fog_color": "#056bd1"
+        },
+        "bubblegum": {
+            "water_surface_color": "#00ff00",
+            "water_fog_color": "#00ff00"
         }
     }
 }
