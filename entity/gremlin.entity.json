@@ -12,9 +12,8 @@
         "default": "geometry.gremlin"
       },
       "animations": {
-        "walk": "animation.quadruped.walk",
         "look_at_target": "animation.common.look_at_target",
-        "baby_transform": "animation.gremlin.baby_transform",
+        "walk": "animation.gremlin.walk",
         "crouch": "animation.gremlin.crouch",
         "sleep": "animation.gremlin.sleep",
         "setup": "animation.gremlin.setup",
@@ -33,7 +32,7 @@
       "render_controllers": [ "controller.render.gremlin" ],
       "spawn_egg": {
         "texture": "spawn_egg",
-        "texture_index": 1
+        "texture_index": 55
       }
     }
   }

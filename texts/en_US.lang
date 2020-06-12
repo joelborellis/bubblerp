@@ -9,3 +9,5 @@ item.gtl:bubblehammer.name=§6Bubble Hammer §r| §aCan Break Bubble Blocks §f|
 item.gtl:bubbleeffects.name=Bubble Diamond
 entity.gtl:gremlin.name=Gremlin
 item.spawn_egg.entity.gtl:gremlin.name=Spawn Gremlin
+entity.gtl:teacher.name=Teacher
+item.spawn_egg.entity.gtl:teacher.name=Spawn Teacher

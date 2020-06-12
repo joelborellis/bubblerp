@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "gtl:teacher",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "teacher"
+      },
+      "textures": {
+        "farmer": "textures/entity/teacher/farmer",
+        "librarian": "textures/entity/teacher/librarian",
+        "priest": "textures/entity/teacher/priest",
+        "smith": "textures/entity/teacher/smith",
+        "butcher": "textures/entity/teacher/butcher"
+      },
+      "geometry": {
+        "default": "geometry.teacher"
+      },
+      "scripts": {
+        "scale": "0.9375"
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "baby_transform": "animation.villager.baby_transform"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" },
+        { "baby": "controller.animation.villager.baby" }
+      ],
+      "render_controllers": [ "controller.render.villager" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 14
+      }
+    }
+  }
+}

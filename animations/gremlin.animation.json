@@ -1,15 +1,20 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.gremlin.baby_transform": {
-			"loop": true
-		},
 		"animation.gremlin.crouch": {
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": [0, 0, 0],
-					"position": [0, -1.8, 0]
+					"rotation": [
+						0,
+						0,
+						0
+					],
+					"position": [
+						0,
+						-1.8,
+						0
+					]
 				}
 			}
 		},
@@ -17,8 +22,16 @@
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": ["query.vertical_speed * -7.0", 0, 0],
-					"position": [0, 0, 0]
+					"rotation": [
+						"query.vertical_speed * -7.0",
+						0,
+						0
+					],
+					"position": [
+						0,
+						0,
+						0
+					]
 				}
 			}
 		},
@@ -26,7 +39,11 @@
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": ["-this", 0, 0]
+					"rotation": [
+						"-this",
+						0,
+						0
+					]
 				}
 			}
 		},
@@ -34,8 +51,16 @@
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": [-60, 0, 0],
-					"position": [0, 1, 0]
+					"rotation": [
+						-60,
+						0,
+						0
+					],
+					"position": [
+						0,
+						1,
+						0
+					]
 				}
 			}
 		},
@@ -43,8 +68,16 @@
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": [0, 0, -90],
-					"position": [0, -4.8, 0]
+					"rotation": [
+						0,
+						0,
+						-90
+					],
+					"position": [
+						0,
+						-4.8,
+						0
+					]
 				}
 			}
 		},
@@ -52,8 +85,36 @@
 			"loop": true,
 			"bones": {
 				"body": {
-					"rotation": [60, 0, 0],
-					"position": [0, -0.3, 0]
+					"rotation": [
+						60,
+						0,
+						0
+					],
+					"position": [
+						0,
+						-0.3,
+						0
+					]
+				}
+			}
+		},
+		"animation.gremlin.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leftleg": {
+					"rotation": [
+						"math.cos(query.anim_time * 38.17) *  80.0",
+						0.0,
+						0.0
+					]
+				},
+				"rightleg": {
+					"rotation": [
+						"math.cos(query.anim_time * 38.17) * -80.0",
+						0.0,
+						0.0
+					]
 				}
 			}
 		}

@@ -16,9 +16,6 @@
 					"transitions" : [
 						{
 							"default" : "!query.is_stalking && !query.is_interested"
-						},
-						{
-							"wiggle" : "query.is_interested"
 						}
 					]
 				},
