@@ -15,5 +15,8 @@
       "uuid": "6c4086d3-e8b2-470e-89fb-fe1b5b7e5c8a",
       "version": [0, 0, 3]
     }
-  ]
+  ],
+  "capabilities": [
+    "experimental_custom_ui"
+ ]
 }
