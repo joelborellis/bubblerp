@@ -1,5 +1,4 @@
 {
-  "version": [ 0, 0, 1 ],
   "gtl:bubblegum_ore": {
     "textures": "bubblegum_ore",
     "sound": "glass"
