@@ -15,16 +15,5 @@
       "east": "bubblegum_side"
     },
     "sound": "glass"
-  },
-  "carved_pumpkin": {
-    "textures": {
-      "up": "head_top",
-      "down": "head_top",
-      "north": "head_side",
-      "south": "head_face",
-      "west": "head_side",
-      "east": "head_side"
-    },
-    "sound": "wood"
   }
 }
