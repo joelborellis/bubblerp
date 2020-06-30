@@ -2,7 +2,14 @@
   "format_version": [ 1, 1, 0 ],
 
   "gtl:bubblegum_ore": {
-    "textures": "bubblegum_ore",
+    "textures": {
+      "up": "bubblegum_ore",
+      "down": "bubblegum_ore",
+      "north": "bubblegum_ore",
+      "south": "bubblegum_ore",
+      "west": "bubblegum_ore",
+      "east": "bubblegum_ore"
+    },
     "sound": "glass"
   },
   "gtl:bubblegum": {
