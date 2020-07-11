@@ -40,11 +40,6 @@
 	let ability2Button = document.getElementById("_ability2_");
 	let ability3Button = document.getElementById("_ability3_");
 
-	let bodyElement = document.getElementById("_body_");
-	bodyElement.addEventListener("click", function () {
-		scriptInterface.triggerEvent("gtl_game:click");
-	})
-
 	// Callback to send the button event to the client script
 	let buttonCallback = function (event) {
 		scriptInterface.triggerEvent(event);
@@ -60,7 +55,6 @@
 	ability3Button.addEventListener("click", function () {
 		buttonCallback("healSingleTargetAbilityClicked")
 	});
-
 
 </script>
 
