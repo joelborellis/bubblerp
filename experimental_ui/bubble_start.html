@@ -6,32 +6,61 @@
 	<script src="UIEngine.js"></script>
 	<link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-	<div id="_body_" class="screenBox">
-		<div class="GameMessage">				
-			<button id="_start_">Enter</button>
+
+<body id="_body_">
+	<div class="screenBox">
+		<div class="ability_panel">
+			<p>Abilities</p>
+			<div class="ability_button_group">
+				<!-- Display all of the ability types -->
+				<button id="_ability1_" class="ability_button"
+					style="background-image:url('attack_button.png')"></button>
+				<button id="_ability2_" class="ability_button"
+					style="background-image:url('group_attack.png')"></button>
+				<button id="_ability3_" class="ability_button"
+					style="background-image:url('regeneration.png')"></button>
+			</div>
 		</div>
 	</div>
-
 </body>
 
 <script type="text/javascript">
 
 	// Get a handle to the scripting interface on creation.
 	// The script interface can trigger events to the client script
-	let scriptEngineHandle = null;
-	engine.on("facet:updated:core.scripting", function (scriptEngine) {
-		scriptEngineHandle = scriptEngine;
+	let scriptInterface = null;
+	engine.on("facet:updated:core.scripting", function (interface) {
+		scriptInterface = interface;
 	});
 
 	engine.trigger("facet:request", ["core.scripting"]);
 
-	// Grab the start button element
-	let startButton = document.getElementById("_start_");
-	// When the start button is pressed send a message to the client script
-	startButton.addEventListener("click", function () {
-		scriptEngineHandle.triggerEvent("startPressed");
+	// Get each of the ability buttons
+	let ability1Button = document.getElementById("_ability1_");
+	let ability2Button = document.getElementById("_ability2_");
+	let ability3Button = document.getElementById("_ability3_");
+
+	let bodyElement = document.getElementById("_body_");
+	bodyElement.addEventListener("click", function () {
+		scriptInterface.triggerEvent("gtl_game:click");
+	})
+
+	// Callback to send the button event to the client script
+	let buttonCallback = function (event) {
+		scriptInterface.triggerEvent(event);
+	}
+
+	// Handle button presses on the ability buttons. Send a specific event for each ability button to the client script.
+	ability1Button.addEventListener("click", function () {
+		buttonCallback("damageSingleTargetAbilityClicked")
 	});
+	ability2Button.addEventListener("click", function () {
+		buttonCallback("damageWholeTeamAbilityClicked")
+	});
+	ability3Button.addEventListener("click", function () {
+		buttonCallback("healSingleTargetAbilityClicked")
+	});
+
 
 </script>
 
