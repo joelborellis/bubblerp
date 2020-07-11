@@ -12,7 +12,7 @@
     },
     "sound": "glass"
   },
-  "gtl:bubblegum": {
+  "gtl:bubblegum_grass": {
     "textures": {
       "up": "bubblegum_top",
       "down": "bubblegum_bottom",

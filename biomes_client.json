@@ -1,6 +1,6 @@
 {
     "biomes": {
-        "bubblegum": {
+        "gtl:bubblegum": {
             "water_surface_color": "#00ff00",
             "water_fog_color": "#00ff00"
         }
