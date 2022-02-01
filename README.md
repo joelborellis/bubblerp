@@ -1,2 +1,2 @@
-# Bubble Gum Behavior Pack for Minecraft Bedrock
-Minecraft Bubblegum Behavior Pack Add-On
+# Bubble Gum Resource Pack for Minecraft Bedrock
+Minecraft Bubblegum Resource Pack Add-On
